@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
           <div className="hero-visual">
             <img
-              src="https://images.unsplash.com/photo-1606980625105-5ad7d6c3c5b6?auto=format&fit=crop&w=900&q=80"
+              src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80"
               alt="กล้องหลายรุ่น"
               loading="lazy"
             />

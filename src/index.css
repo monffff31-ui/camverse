@@ -249,14 +249,16 @@ img {
 }
 .hero-visual {
   position: relative;
-  height: 280px;
-  display: grid;
-  place-items: center;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 14px;
 }
 .hero-visual img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.6));
 }
 .hero-cam-stack {
@@ -267,6 +269,8 @@ img {
 
 /* hero categories row */
 .hero-cats {
+  position: relative;
+  z-index: 2;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 12px;
